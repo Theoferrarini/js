@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/Accueil/css/accueil.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AnimeVerse</title>
+</head>
+<body>
+<header>
+    <h1 class="rainbow-text">AnimeVerse</h1>
+    <p class="forms">Log-in</p>
+    <div class="forms1">
+      <div class="message-error">
+        <ul></ul>
+    </div>
+
+    <div class="message-success">
+        Formulaire envoyé avec succés !
+    </div>
+
+    <form action="" method="post" enctype="multipart/form-data">
+        <div>
+            <label for="pseudo">Pseudo</label>
+            <input type="text" name="pseudo" id="pseudo">
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </div>
+
+        <div>
+            <label for="password">Mot de passe</label>
+            <input type="password" name="password" id="password">
+        </div>
+
+        <div>
+            <label for="password2">Confirmation du mot de passe</label>
+            <input type="password" name="password2" id="password2">
+        </div>
+
+        <button type="submit">S'inscrire</button>
+    </form>
+    </div>
+    
+</header>
+<div class="swiper mon-slider">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide slide-db">
+            <a href="/dragon ball/html/dragon ball.html" class="slide-link">
+                <p class="slide">Dragon ball</p>
+            </a>
+        </div>          
+        <div class="swiper-slide slide-op">
+            <a href="/one piece/html/one piece.html" class="slide-link">
+                <p class="slide">One piece</p>
+            </a>
+        </div>
+        <div class="swiper-slide slide-jjk">
+            <a href="/jujutsu kaisen/html/Jujutsu Kaisen.html" class="slide-link">
+                <p class="slide">Jujutsu Kaisen</p>
+            </a>
+        </div>
+        <div class="swiper-slide slide-bl">
+            <a href="/bleach/html/Bleach.html" class="slide-link">
+                <p class="slide">Bleach</p>
+            </a>
+        </div>
+        <div class="swiper-slide slide-na">
+            <a href="/naruto/html/Naruto.html" class="slide-link">
+                <p class="slide">Naruto</p>
+            </a>
+        </div>
+        <div class="swiper-slide slide-hx">
+            <a href="/hxh/html/hxh.html" class="slide-link">
+                <p class="slide">HXH</p>
+            </a>
+        </div>
+        <div class="swiper-slide slide-ds">
+            <a href="/kny/html/kny.html" class="slide-link">
+                <p class="slide">KNY</p>
+            </a>
+        </div>
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+</div>
+<ul>
+    <li class="tab-active tab tab-db">Dragon ball</li>
+    <li class="tab tab-op">One piece</li>
+    <li class="tab tab-jjk">Jujutsu kaisen</li>
+    <li class="tab tab-bl">Bleach</li>
+    <li class="tab tab-na">Naruto</li>
+    <li class="tab tab-hx">Hunter x hunter</li>
+    <li class="tab tab-kny">Demon slayer</li>
+</ul>
+<div class="content div-db div-active">Meilleur anime/manga</div>
+<div class="content div-op">Très bonne oeuvre</div>
+<div class="content div-jjk">Mastreclass</div>
+<div class="content div-bl">Très bon manga mais éviter l'anime</div>
+<div class="content div-na ">J'aime pas de fou</div>
+<div class="content div-hx ">Très bonne oeuvre un poil surcoté</div>
+<div class="content div-kny">Bof</div>
+<footer><button id="darkModeButton"><img src="/Accueil/css/night-mode.png" alt="nightmode"></button></footer>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="../../main.js">
+</script>
+</body>
+</html>

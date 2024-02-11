@@ -1,0 +1,210 @@
+body {
+    background-image: url('fond\ pc\ anime.png');
+    background-size: cover;
+}
+
+header .rainbow-text {
+    background-image: linear-gradient(to right, #00FFFF, #00CCFF, #0099FF, #0066FF, #0033FF, #FFA500, #FF8C00, #FF6347, #FF4500, #FF0000);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 48px;
+    text-align: center;
+}
+
+.forms{
+    display: flex;
+    justify-content: right;
+    color: red;
+}
+
+.forms1{
+    display: none;
+}
+
+.forms1.open{
+    display: block;
+}
+
+.message-error {
+    border: 1px solid rgb(212, 42, 0);
+    color: rgb(212, 42, 0);
+    background-color: rgba(212, 42, 0, 0.4);
+    padding: 16px 32px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.message-error.visible{
+    display: block;
+}
+
+.message-success {
+    border: 1px solid rgb(81, 150, 02);
+    color: rgb(81, 150, 2);
+    background-color: rgba(113, 212, 0, 0.4);
+    padding: 16px 32px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.message-success.visible {
+    display: block;
+}
+
+.success {
+    border: 1px solid rgb(81, 150, 2);
+    background-color: rgba(113, 212, 0, 0.4);
+}
+
+div.swiper-wrapper {
+    width: 100%;
+    color: #e70303;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+div.swiper-slide {
+    text-align: center;
+    position: relative;
+    font-size: 28px;
+    height: 50vh;
+}
+
+div.swiper-slide a {
+    text-decoration: none;
+    color: #0408f4;
+}
+
+div.swiper-slide a:hover {
+    color: #fc0000;
+}
+
+.slide-db{
+    background-image: url('/Accueil/css/goku\ icon.png'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15%;
+}
+
+.slide-op{
+    background-image: url('/Accueil/css/luffy\ icon.png'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10%;
+}
+
+.slide-jjk{
+    background-image: url('/Accueil/css/yuji\ icon.png'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15%;
+}
+
+.slide-bl{
+    background-image: url('/Accueil/css/ichigo\ icon.jpg'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15%;
+}
+
+.slide-na{
+    background-image: url('/Accueil/css/naruto\ icon.png'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 5%;
+}
+
+.slide-hx{
+    background-image: url('/Accueil/css/gon\ icon.avif'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10%;
+}
+
+.slide-ds{
+    background-image: url('/Accueil/css/tanjiro\ icon.png'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15%;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.tab-active{
+    color: red !important;
+}
+
+.tab{
+    color: #0033FF;
+}
+
+.content{   
+    display: none;
+}
+
+.div-active{
+    color: red;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    text-align: right;
+    font-size: 25px;
+}
+
+#darkModeButton {
+    background-color: #0648ff72;
+    margin: 10px 25px;
+}
+
+.dark-mode {
+    background-image: url('/Accueil/css/fond\ pc\ anime\ nuit.jpg');
+}
+
+.dark-mode .rainbow-text {
+    background-image: linear-gradient(to right, #FFFFFF, #CCCCCC, #999999, #666666, #333333, #FFA500, #FF8C00, #FF6347, #FF4500, #FF0000);
+}
+
+.dark-mode .swiper-slide a {
+    color: rgb(0, 213, 255);
+}
+
+.dark-mode .swiper-slide a:hover {
+    color: #FFA500;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-image: url('/Accueil/css/fond\ tel\ anime.jpg');
+        background-size: 100%;
+    }
+    header .rainbow-text {
+        font-size: 36px;
+    }
+
+    ul.horizontal-list li {
+        font-size: 20px;
+    }
+
+    ul.horizontal-list li img {
+        height: 250px;
+    }
+
+    footer {
+        font-size: 25px;
+    }
+}
